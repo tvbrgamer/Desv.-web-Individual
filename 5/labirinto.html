@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labirinto</title>
+</head>
+<body>
+    
+    <h1>Labirinto YAY</h1>
+    <h3>Ande pelo azul e chegue ao vermelho</h3>
+    
+    <img src="labirinto.png" usemap="#image-map" id="labirinto">
+    <map name="image-map">
+        <area target="" onmouseover="loss()" alt="perdeu" title="perdeu" href="#"  coords="1,509,45,509,47,444,401,443,401,414,45,415,45,189,248,189,249,147,207,145,207,12,257,12,257,89,289,87,290,225,79,227,77,367,425,369,427,487,86,490,87,509,509,509,509,1,2,3" shape="poly"></area>
+        <area target="" onmouseover="win()" alt="ganhou" title="ganhou" href="#" coords="255,89,209,15" shape="rect"></area>
+    </map>
+    <br>
+    <input type="button" onclick="iniciar()" value="Iniciar/reiniciar">
+    
+    <script src="labirinto.js"></script>
+</body>
+</html>
