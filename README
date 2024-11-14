@@ -1,0 +1,8 @@
+Trabalho individual:
+
+1 - 7 - 5 - 14
+
+1 - Funcao javacript que recebe uma palavra de entrada e retorna se é um palindromo ou nao
+5 - um labirinto que da uma mensagem mandando voltar para o inicio quando toca na parede
+7 - Funcao que recebe uma matriz e um numero e substitui a linha equivalente ao numero por zeros
+14 - Botao "dark mode" que muda o fundo para preto e a letra para branco e seu texto para "dark mode", e vice versa
