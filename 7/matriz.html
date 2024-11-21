@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>matriz</title>
+  </head>
+  <body>
+
+    <div id="line1">
+    <div id="gerador">
+      <h1>Gerador de matriz:</h1>
+      <h3>Linhas:</h3>
+      1~5
+      <input type="number" min="1" max="5" name="geraLinha" id="geraLinha" />
+      <h3>Colunas:</h3>
+      1~5
+      <input type="number" min="1" max="5" name="geraColuna" id="geraColuna" />
+
+      <br /><br />
+      <input type="button" onclick="geraMatriz()" value="Gerar Matriz" />
+    </div>
+
+    <div id="GeraResult">
+        <h1>Matriz:</h1>
+
+        <p id="pMatriz">Gere uma matriz</p>
+        
+        
+    </div>
+</div>
+
+    <h1>Zerar Matriz</h1>
+    <h3>Zerar:</h3>
+    1~5
+      <input type="number" min="1" max="5" name="zeraValor" id="zeraValor" />
+        
+      <br><br>
+      <input type="button" onclick="zeraLinha()" value="Linha" />
+      <input type="button" onclick="zeraColuna()" value="Coluna" />
+  
+    </body>
+    <script src="matriz.js"></script>
+</html>
